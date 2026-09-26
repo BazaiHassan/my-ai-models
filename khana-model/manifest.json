@@ -1,0 +1,32 @@
+{
+ "version": "2026.09-amir-dev",
+ "voices": [
+  {
+   "id": "amir",
+   "sampleRate": 22050,
+   "phonemeType": "espeak"
+  }
+ ],
+ "files": [
+  {
+   "path": "g2p/decoder.int8.onnx",
+   "size": 4406623,
+   "sha256": "e3bc6a0b8a9bdc74f3f4bb7ffbb9b9b46c446410e0304491af82e7bec1b67926"
+  },
+  {
+   "path": "g2p/encoder.int8.onnx",
+   "size": 4234422,
+   "sha256": "e5030fdcba7d9519c900b208c04319b763d35b5aff820beaae3f2b9749fce34a"
+  },
+  {
+   "path": "voices/amir/model.onnx",
+   "size": 63153028,
+   "sha256": "4f055ed96d78ed252a6c22cd4416f2505c8885e1c850a8d56cf439853fd6e4a5"
+  },
+  {
+   "path": "voices/amir/model.onnx.json",
+   "size": 2351,
+   "sha256": "c3f51eacad1dd9244f18ba61beea67727974eb5d067ccfc38b45610a0ae18cf3"
+  }
+ ]
+}
